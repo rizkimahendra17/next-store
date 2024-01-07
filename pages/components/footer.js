@@ -7,15 +7,15 @@ function Footer(){
         <>
     
    
-    <footer class="py-3 my-4 bg-light">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    <footer className="py-3 my-4 bg-light">
+    <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Home</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Features</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Pricing</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">FAQs</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">About</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; 2023 AventStore, Inc</p>
+    <p className="text-center text-muted">&copy; 2023 AventStore, Inc</p>
   </footer>
 
         </>
