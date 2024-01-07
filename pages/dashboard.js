@@ -33,6 +33,7 @@ function Dashboard() {
         await axios.get(`${process.env.NEXT_PUBLIC_API_BACKEND}/api/user`)
         .then((response) => {
 
+            console.log(response.data.user);
             //set response user to state
             setUser(response.data.user);
 
@@ -60,7 +61,7 @@ function Dashboard() {
         //set axios header dengan type Authorization + Bearer token
         axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
         //fetch Rest API
-        await axios.post(`http://localhost:8000/api/logout`)
+        await axios.post(`${process.env.NEXT_PUBLIC_API_BACKEND}api/logout`)
         .then(() => {
 
             //remove token from cookies

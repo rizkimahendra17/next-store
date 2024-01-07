@@ -1,11 +1,11 @@
 //layout
-import Layout from './layouts/default';
+// import Layout from './layouts/default';
 import Head from 'next/head';
 
 function Home() {
 
     return(
-        <Layout>
+           <>
             <Head>
                 <title>Home - Travel.com</title>
             </Head>
@@ -14,15 +14,15 @@ function Home() {
                     <div className="col-md-12">
                       <div className="p-5 mb-4 bg-light rounded-3 shadow-sm border-0">
                           <div className="container-fluid py-5">
-                              <h2 className="display-6 fw-bold">LARAVEL JWT + NEXT.JS</h2>
-                              <p className="col-md-12 fs-4">Belajar Authentication Laravel JWT dengan Next.js di SantriKoding.com</p>
-                              <a href="https://santrikoding.com/kategori/next-js" target="_blank" className="btn btn-primary btn-lg" type="button">Selengkapnya</a>
+                              <h2 className="display-6 fw-bold">SELAMAT DATANG DI ADMIN AVENT STORE</h2>
+                              <p className="col-md-12 fs-4">Silahkan Melakukan Login Untuk Masuk Ke Admin</p>
+                              <a href="" target="_blank" className="btn btn-primary btn-lg" type="button">Login</a>
                           </div>
                       </div>
                     </div>
                 </div>
             </div>
-        </Layout>
+            </>
     )
 }
 

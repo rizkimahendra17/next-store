@@ -1,4 +1,3 @@
-import Layout from "./layouts/default";
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Router from "next/router";
@@ -44,8 +43,8 @@ function Login(){
         })
 
         return(
-            <Layout>
-                <Head>
+        <>
+          <Head>
                     <title>Login Account - Travel.com</title>
                 </Head>
                 <div className="container" style={{ marginTop: '80px' }}>
@@ -94,7 +93,8 @@ function Login(){
                         </div>
                     </div>
                 </div>
-            </Layout>
+        </>
+              
         )
 }
 
